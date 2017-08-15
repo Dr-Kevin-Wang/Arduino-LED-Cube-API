@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cube" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view tag="2" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="572-ia-t9a">
+                                <rect key="frame" x="16" y="259" width="343" height="169"/>
+                                <subviews>
+                                    <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t92-V5-FxC">
+                                        <rect key="frame" x="61" y="10" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="EjB-mF-Yjv"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4OV-y9-4XG">
+                                        <rect key="frame" x="118" y="10" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="hMP-s3-jqz"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Xns-rK-HKd">
+                                        <rect key="frame" x="175" y="10" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="a8D-oo-qPl"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qaP-Fy-6Dx">
+                                        <rect key="frame" x="232" y="10" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="DOx-RG-dQP"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dPX-fG-sca">
+                                        <rect key="frame" x="61" y="49" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="MwO-uo-sfE"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1cN-bH-feY">
+                                        <rect key="frame" x="118" y="49" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="uqj-lV-EKa"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EAq-ty-HJA">
+                                        <rect key="frame" x="175" y="49" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="rap-oh-enI"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ldq-Sh-OEJ">
+                                        <rect key="frame" x="232" y="49" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="sj5-cj-8s7"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mqJ-QE-CE9">
+                                        <rect key="frame" x="61" y="88" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="ZnD-Yn-P3n"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0k7-vJ-wKJ">
+                                        <rect key="frame" x="118" y="88" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="JJk-t9-RMp"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="11" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xSu-LH-N7R">
+                                        <rect key="frame" x="175" y="88" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="cFh-Nq-kAN"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="12" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xAo-GX-Vat">
+                                        <rect key="frame" x="232" y="88" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="5cz-z6-YOs"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="13" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iiR-GE-IzG">
+                                        <rect key="frame" x="61" y="127" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="pTq-DP-36f"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="14" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="L2D-kh-Z8A">
+                                        <rect key="frame" x="118" y="127" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="dmy-Mx-nfa"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="15" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hmw-3N-wU1">
+                                        <rect key="frame" x="175" y="127" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="kyO-4h-H21"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="16" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Izd-V3-V4y">
+                                        <rect key="frame" x="232" y="127" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="onTintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="KP5-y1-DxN"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Layers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbq-Sm-k90">
+                                <rect key="frame" x="16" y="36" width="343" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nGJ-mk-jsr">
+                                <rect key="frame" x="16" y="100" width="343" height="29"/>
+                                <segments>
+                                    <segment title="Bottom"/>
+                                    <segment title="Second"/>
+                                    <segment title="Third"/>
+                                    <segment title="Top"/>
+                                </segments>
+                                <color key="tintColor" red="0.0" green="0.62352941179999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="layerChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="ag4-4n-kJm"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="572-ia-t9a" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="C93-Qi-nzh"/>
+                            <constraint firstItem="nGJ-mk-jsr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CNe-cY-Ga1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wbq-Sm-k90" secondAttribute="trailing" constant="16" id="IlY-XH-hNH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nGJ-mk-jsr" secondAttribute="trailing" constant="16" id="Ngk-vi-NKc"/>
+                            <constraint firstItem="572-ia-t9a" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VQc-SR-H0s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="572-ia-t9a" secondAttribute="bottom" constant="239" id="fJP-Pd-2QZ"/>
+                            <constraint firstItem="nGJ-mk-jsr" firstAttribute="top" secondItem="wbq-Sm-k90" secondAttribute="bottom" constant="16" id="iFy-Oq-bSu"/>
+                            <constraint firstItem="572-ia-t9a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="s2r-60-fa5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="572-ia-t9a" secondAttribute="trailing" constant="16" id="sAg-Ot-3d5"/>
+                            <constraint firstItem="wbq-Sm-k90" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="ueR-PS-plQ"/>
+                            <constraint firstItem="wbq-Sm-k90" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zn6-ZK-8jR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="switches" destination="t92-V5-FxC" collectionClass="NSMutableArray" id="EOq-lo-wfN"/>
+                        <outletCollection property="switches" destination="4OV-y9-4XG" collectionClass="NSMutableArray" id="gzL-hz-3aH"/>
+                        <outletCollection property="switches" destination="Xns-rK-HKd" collectionClass="NSMutableArray" id="g3h-Jh-uhD"/>
+                        <outletCollection property="switches" destination="qaP-Fy-6Dx" collectionClass="NSMutableArray" id="WD4-gd-8tf"/>
+                        <outletCollection property="switches" destination="dPX-fG-sca" collectionClass="NSMutableArray" id="81f-vz-xah"/>
+                        <outletCollection property="switches" destination="1cN-bH-feY" collectionClass="NSMutableArray" id="440-6V-WnL"/>
+                        <outletCollection property="switches" destination="EAq-ty-HJA" collectionClass="NSMutableArray" id="LDM-WC-qAa"/>
+                        <outletCollection property="switches" destination="Ldq-Sh-OEJ" collectionClass="NSMutableArray" id="lvo-d0-NdW"/>
+                        <outletCollection property="switches" destination="mqJ-QE-CE9" collectionClass="NSMutableArray" id="sOR-Ly-cXK"/>
+                        <outletCollection property="switches" destination="0k7-vJ-wKJ" collectionClass="NSMutableArray" id="jFG-h8-G8K"/>
+                        <outletCollection property="switches" destination="xSu-LH-N7R" collectionClass="NSMutableArray" id="pHo-dG-9dW"/>
+                        <outletCollection property="switches" destination="xAo-GX-Vat" collectionClass="NSMutableArray" id="oVR-Lw-Ciz"/>
+                        <outletCollection property="switches" destination="iiR-GE-IzG" collectionClass="NSMutableArray" id="LIp-jt-IE0"/>
+                        <outletCollection property="switches" destination="L2D-kh-Z8A" collectionClass="NSMutableArray" id="Hg1-eR-ASn"/>
+                        <outletCollection property="switches" destination="hmw-3N-wU1" collectionClass="NSMutableArray" id="bjp-4X-4XU"/>
+                        <outletCollection property="switches" destination="Izd-V3-V4y" collectionClass="NSMutableArray" id="3To-5u-V5m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
