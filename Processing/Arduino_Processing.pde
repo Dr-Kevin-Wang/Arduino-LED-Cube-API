@@ -5,8 +5,9 @@ String data[];
 String dataStr = "";
 
 void setup() {
+//Setup serial port
     port = new Serial(this, Serial.list()[12], 115200); 
-    
+    //Init txt file from server
     data = loadStrings("http://108.61.72.9/arduino.txt");
     if (data.length > 0)
     {
@@ -24,6 +25,7 @@ void draw() {
       String temp = data[0];
       if (temp.length() == 4)
       {
+    //If change is detected -> update Arduino
         if (temp.equals(dataStr) == false)
         {
           dataStr = temp;
